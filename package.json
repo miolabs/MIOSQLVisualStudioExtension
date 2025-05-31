@@ -1,0 +1,21 @@
+{
+  "name": "postgres-canvas",
+  "displayName": "PostgreSQL Canvas",
+  "description": "Advanced PostgreSQL query builder with multi-panel canvas",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "main": "./dist/extension.js",
+  "activationEvents": [
+    "onCommand:pgCanvas.connect"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "pgCanvas.connect",
+        "title": "PostgreSQL: Connect to Database"
+      }
+    ]
+  }
+}
