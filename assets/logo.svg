@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 128 128"
+   width="128"
+   height="128"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg">
+  
+  <!-- Background canvas -->
+  <rect
+     x="10"
+     y="10"
+     width="108"
+     height="108"
+     rx="8"
+     ry="8"
+     fill="#f8f8f8"
+     stroke="#336791"
+     stroke-width="4" />
+  
+  <!-- Multi-panel interface representation -->
+  <!-- Top left panel (Query Builder) -->
+  <rect
+     x="18"
+     y="18"
+     width="50"
+     height="40"
+     rx="4"
+     ry="4"
+     fill="#e6f0fa"
+     stroke="#336791"
+     stroke-width="2" />
+  
+  <!-- Bottom panel (Results) -->
+  <rect
+     x="18"
+     y="66"
+     width="92"
+     height="44"
+     rx="4"
+     ry="4"
+     fill="#e6f0fa"
+     stroke="#336791"
+     stroke-width="2" />
+  
+  <!-- Right panel (Templates/History) -->
+  <rect
+     x="76"
+     y="18"
+     width="34"
+     height="40"
+     rx="4"
+     ry="4"
+     fill="#e6f0fa"
+     stroke="#336791"
+     stroke-width="2" />
+  
+  <!-- PostgreSQL elephant silhouette -->
+  <path
+     d="M 58,44 C 52,44 48,48 48,53 C 48,55 49,57 50,58 L 50,62 C 50,64 52,66 54,66 L 62,66 C 64,66 66,64 66,62 L 66,58 C 67,57 68,55 68,53 C 68,48 64,44 58,44 Z"
+     fill="#336791" />
+  <circle
+     cx="55"
+     cy="51"
+     r="1.5"
+     fill="white" />
+  
+  <!-- Database cylinders in results panel -->
+  <g transform="translate(0,4)">
+    <ellipse
+       cx="40"
+       cy="84"
+       rx="10"
+       ry="4"
+       fill="#336791"
+       stroke="none" />
+    <rect
+       x="30"
+       y="84"
+       width="20"
+       height="12"
+       fill="#336791"
+       stroke="none" />
+    <ellipse
+       cx="40"
+       cy="96"
+       rx="10"
+       ry="4"
+       fill="#336791"
+       stroke="none" />
+  </g>
+  
+  <!-- Text lines in panels -->
+  <!-- Query builder panel lines -->
+  <g stroke="#336791" stroke-width="1.5">
+    <line x1="24" y1="28" x2="60" y2="28" />
+    <line x1="24" y1="34" x2="55" y2="34" />
+    <line x1="24" y1="40" x2="50" y2="40" />
+  </g>
+  
+  <!-- Template panel lines -->
+  <g stroke="#336791" stroke-width="1.5">
+    <line x1="82" y1="28" x2="102" y2="28" />
+    <line x1="82" y1="34" x2="102" y2="34" />
+    <line x1="82" y1="40" x2="102" y2="40" />
+    <line x1="82" y1="46" x2="102" y2="46" />
+  </g>
+  
+  <!-- Results panel data grid -->
+  <g stroke="#336791" stroke-width="1">
+    <line x1="60" y1="78" x2="100" y2="78" />
+    <line x1="60" y1="86" x2="100" y2="86" />
+    <line x1="60" y1="94" x2="100" y2="94" />
+    <line x1="60" y1="102" x2="100" y2="102" />
+    
+    <line x1="70" y1="70" x2="70" y2="102" />
+    <line x1="80" y1="70" x2="80" y2="102" />
+    <line x1="90" y1="70" x2="90" y2="102" />
+  </g>
+</svg>
