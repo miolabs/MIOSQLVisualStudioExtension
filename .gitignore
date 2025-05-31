@@ -1,0 +1,64 @@
+# VS Code Extension specific
+*.vsix
+.vscode-test/
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+*.code-workspace
+
+# Build output
+out/
+dist/
+lib/
+build/
+*.tsbuildinfo
+
+# Dependencies
+node_modules/
+.pnpm-store/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# TypeScript
+*.js.map
+*.tsbuildinfo
+
+# Environment & secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Temporary files
+tmp/
+temp/
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor specific (beyond VS Code)
+.idea/
+*.swp
+*.swo
+*~
+
+# Project specific
+# Add custom patterns for your project here
